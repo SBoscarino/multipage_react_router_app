@@ -8,6 +8,7 @@ import Layout from './components/Layout.js';
 import About from './components/About.js';
 import Work from './components/Work.js';
 import Home from './components/Home.js';
+import Find from './components/Find.js';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -15,6 +16,7 @@ ReactDOM.render(
       <Switch>
         <Route path="/About" component={About}/>
         <Route path="/Work" component={Work}/>
+        <Route path="/Find" component={Find}/>
         <Route path="/" component={Home}/>
       </Switch>
     </Layout>

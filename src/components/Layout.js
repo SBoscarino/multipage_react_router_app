@@ -11,10 +11,11 @@ render(){
       <nav className="navbar">
         <Link to="/Home"><li>Home</li></Link>
         <Link to="/About"><li>About</li></Link>
-        <Link to="/Work"><li>Work</li></Link>
+        <Link to="/Work"><li>Social</li></Link>
+        <Link to="/Find"><li>Find Me</li></Link>
       </nav>
       <div className="items">
-      <h1>Content:</h1>
+      <h1>Meow</h1>
       <hr/>
         {this.props.children}
       </div>
