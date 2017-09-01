@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 class Find extends Component {
   render(){
     return(
     <div>
 
-    
+
     //Left side
       <div>
         <h1>Hey, folks. How about we socialize?</h1>
