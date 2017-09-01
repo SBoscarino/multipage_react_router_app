@@ -11,16 +11,16 @@ class About extends Component {
       </div>
       <div>
         <img src="http://baconmockup.com/300/300" />
-        <img src="http://baconmockup.com/500/300" />
-        <img src="http://baconmockup.com/400/300" />
-        <img src="http://baconmockup.com/500/300" />
-        <img src="http://baconmockup.com/200/300" />
         <img src="http://baconmockup.com/300/300" />
-        <img src="http://baconmockup.com/200/300" />
+        <img src="http://baconmockup.com/300/300" />
+        <img src="http://baconmockup.com/300/300" />
+        <img src="http://baconmockup.com/300/300" />
+        <img src="http://baconmockup.com/300/300" />
+        <img src="http://baconmockup.com/300/300" />
         <div>I have the look</div>
         <img src="http://baconmockup.com/300/300" />
-        <img src="http://baconmockup.com/500/300" />
-        <img src="http://baconmockup.com/400/300" />
+        <img src="http://baconmockup.com/300/300" />
+        <img src="http://baconmockup.com/300/300" />
       </div>
     </div>
   )
