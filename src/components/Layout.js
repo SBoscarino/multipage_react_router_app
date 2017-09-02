@@ -2,21 +2,21 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Home from './Home.js';
 import About from './About.js';
-import Work from './Work.js';
+import Social from './Social.js';
 
 class Layout extends Component {
 render(){
   return(
-    <div>
+    <div className="layout">
       <nav className="navbar">
-        <Link to="/Home"><li>Home</li></Link>
-        <Link to="/About"><li>About</li></Link>
-        <Link to="/Work"><li>Social</li></Link>
-        <Link to="/Find"><li>Find Me</li></Link>
+        <Link to="/">Home</Link>
+        <Link to="/About">About</Link>
+        <Link to="/Social">Social</Link>
+        <Link to="/Find">Find Me</Link>
       </nav>
       <div className="items">
-      <h1>Meow</h1>
-      <hr/>
+        <h1 className="main-header">Meow</h1>
+        <hr/>
         {this.props.children}
       </div>
     </div>

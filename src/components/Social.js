@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-class Work extends Component {
+class Social extends Component {
   render(){
     return(
-    <div>
-      <h1>Hey, baby. How about we get social.</h1>
-      <div>
-        <p>Ooooo, spinny things!</p>
+    <div className="social">
+
+      <div className="sub-header">
+        <h2>Hey, baby. How about we get social.</h2>
+        <h3>Ooooo, spinny things!</h3>
       </div>
       <div>
         <img src="https://image.flaticon.com/icons/png/512/8/8800.png" />
@@ -19,4 +20,4 @@ class Work extends Component {
   }
 }
 
-export default Work;
+export default Social;

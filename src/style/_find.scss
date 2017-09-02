@@ -1,0 +1,19 @@
+.find {
+
+
+  .contact-area {
+    display: flex;
+  }
+
+  .map, .contact-me {
+    flex-basis: 50%;
+  }
+
+  .contact-me {
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+}

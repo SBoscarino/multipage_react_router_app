@@ -1,0 +1,25 @@
+@import 'reset';
+
+$main-color: #c86b98;
+
+.sub-header {
+
+  border: solid 1px black;
+  font-family: Chalkboard;
+  padding: 10px;
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+}
+
+
+@import 'layout';
+@import 'home';
+@import 'about';
+@import 'social';
+@import 'find';

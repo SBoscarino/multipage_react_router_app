@@ -1,0 +1,23 @@
+.about {
+
+
+  .image-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    div {
+      flex-basis: 33.333333%;
+
+      p {
+        padding: 10px;
+        text-align: center;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+
+  }
+
+}
