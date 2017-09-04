@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Home from './Home.js';
-import About from './About.js';
-import Social from './Social.js';
 
 class Layout extends Component {
 render(){

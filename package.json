@@ -15,5 +15,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "sass": "node-sass src/style/style.scss src/style.css --watch"
+  },
+  "devDependencies": {
+    "url-loader": "^0.5.9"
   }
 }
