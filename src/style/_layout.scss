@@ -1,19 +1,21 @@
 
-
 .layout {
+  font-family: 'Baloo Tammudu', cursive;
 
   nav {
     background-color: $main-color;
-    padding: 20px;
+    padding: 20px 20px;
+    font-size: 40px;
   }
 
   a {
     color: #fff;
     padding: 10px;
   }
-
+  .selected{
+    color:#3ebab0;
+  }
   .main-header {
-    font-family: Helvetica, sans-serif;
     text-align: center;
   }
 

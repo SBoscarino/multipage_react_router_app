@@ -6,14 +6,12 @@ render(){
   return(
     <div className="layout">
       <nav className="navbar">
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/About">About</NavLink>
-        <NavLink to="/Social">Social</NavLink>
-        <NavLink to="/Find">Find Me</NavLink>
+        <NavLink activeClassName="selected" exact to="/">Home</NavLink>
+        <NavLink activeClassName="selected" to="/About">About</NavLink>
+        <NavLink activeClassName="selected" to="/Social">Social</NavLink>
+        <NavLink activeClassName="selected" to="/Find">Find Me</NavLink>
       </nav>
       <div className="items">
-        <h1 className="main-header">Meow</h1>
-        <hr/>
         {this.props.children}
       </div>
     </div>

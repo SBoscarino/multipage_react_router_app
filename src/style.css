@@ -47,33 +47,47 @@ table {
 
 .sub-header {
   border: solid 1px black;
-  font-family: Chalkboard;
+  font-family: 'Baloo Tammudu', cursive;
   padding: 10px; }
   .sub-header h2 {
     font-size: 2em; }
   .sub-header h3 {
     font-size: 1.2em; }
 
-.layout nav {
-  background-color: #c86b98;
-  padding: 20px; }
-
-.layout a {
-  color: #fff;
-  padding: 10px; }
-
-.layout .main-header {
-  font-family: Helvetica, sans-serif;
-  text-align: center; }
+.layout {
+  font-family: 'Baloo Tammudu', cursive; }
+  .layout nav {
+    background-color: #c86b98;
+    padding: 20px 20px;
+    font-size: 40px; }
+  .layout a {
+    color: #fff;
+    padding: 10px; }
+  .layout .selected {
+    color: #3ebab0; }
+  .layout .main-header {
+    text-align: center; }
 
 .home {
-  text-align: center; }
+  text-align: center;
+  background-color: #3ebab0; }
+  .home h1, .home h2 {
+    padding-top: 30px;
+    font-size: 30px; }
+  .home .large {
+    font-size: 50px; }
+  .home img {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    height: 500px;
+    animation: spin .9s linear infinite; }
 
 .about .image-list {
   display: flex;
   flex-wrap: wrap; }
   .about .image-list div {
-    flex-basis: 33.333333%; }
+    flex-basis: 31.333333%;
+    padding: 1px; }
     .about .image-list div p {
       padding: 10px;
       text-align: center; }
