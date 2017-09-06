@@ -46,7 +46,6 @@ table {
   border-spacing: 0; }
 
 .sub-header {
-  border: solid 1px black;
   font-family: 'Baloo Tammudu', cursive;
   padding: 10px; }
   .sub-header h2 {
@@ -82,32 +81,77 @@ table {
     height: 500px;
     animation: spin .9s linear infinite; }
 
-.about .image-list {
-  display: flex;
-  flex-wrap: wrap; }
-  .about .image-list div {
-    flex-basis: 31.333333%;
-    padding: 1px; }
-    .about .image-list div p {
-      padding: 10px;
-      text-align: center; }
-  .about .image-list img {
-    width: 100%; }
+.about {
+  background-color: #7dc9ab; }
+  .about .sub-header {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center; }
+    .about .sub-header h1 {
+      font-size: 50px; }
+    .about .sub-header .oneHundred {
+      color: white; }
+  .about .image-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .about .image-list div {
+      flex-basis: 30.333333%;
+      padding: 2px; }
+    .about .image-list img {
+      width: 100%; }
 
-.social img {
-  width: 33.333333%;
-  animation: spin 4s linear infinite; }
+.social {
+  background-color: #fe9c7f; }
+  .social h1, .social h2, .social div {
+    text-align: center; }
+  .social .sub-header {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .social h1 {
+    color: white;
+    font-size: 40px; }
+  .social img {
+    padding: 20px;
+    width: 15%;
+    animation: spin 4s linear infinite; }
+  .social .words {
+    padding: 10px;
+    color: white;
+    font-size: 20px; }
+  .social .warning {
+    color: red; }
 
 @keyframes spin {
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
 
-.find .contact-area {
-  display: flex; }
-
-.find .map, .find .contact-me {
-  flex-basis: 50%; }
-
-.find iframe {
-  width: 100%; }
+.find {
+  background-color: #3ebab0; }
+  .find h2 {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px; }
+  .find p {
+    text-align: center;
+    font-size: 20px; }
+  .find .contact-area {
+    display: flex;
+    padding-bottom: 100px; }
+  .find .map, .find .contact-me {
+    flex-basis: 50%; }
+  .find .contact-me {
+    font-size: 20px; }
+    .find .contact-me h1 {
+      font-size: 30px;
+      padding: 5px;
+      padding-top: 20px;
+      color: white; }
+    .find .contact-me .contact .skillz {
+      padding: 5px; }
+  .find iframe {
+    width: 90%;
+    padding-right: 5%;
+    padding-left: 5%; }

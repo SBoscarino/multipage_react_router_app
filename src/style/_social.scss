@@ -1,12 +1,29 @@
 .social {
-
+  background-color: #fe9c7f;
+  h1, h2, div{
+    text-align: center;
+  }
+  .sub-header{
+    padding-top:30px;
+    padding-bottom: 30px;
+  }
+  h1{
+    color: white;
+    font-size: 40px;
+  }
   img {
-    width: 33.333333%;
+    padding: 20px;
+    width:15%;
     animation: spin 4s linear infinite;
   }
-
-
-
+  .words{
+    padding:10px;
+    color:white;
+    font-size: 20px;
+  }
+  .warning{
+    color:red;
+}
   @keyframes spin {
     100% {
       -webkit-transform: rotate(360deg);

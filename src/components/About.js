@@ -20,8 +20,10 @@ class About extends Component {
     return(
     <div className="about">
       <div className="sub-header">
-        <h2>I am pretty cool.</h2>
-        <h3>Look at all of these cool pictures of me</h3>
+        <h1>I am the illest, the most lit.</h1>
+        <h1 className="oneHundred">I keep it fresh 100%.</h1>
+        <h2>Look at all of these cool pictures of me.</h2>
+        <h2>Learn more of my awesomeness. Be impressed.</h2>
       </div>
       <div className="image-list">
         <div><img alt="cat"  src="https://pbs.twimg.com/profile_images/556148124616757248/w6B17WYT.jpeg"/></div>

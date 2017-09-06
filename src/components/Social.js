@@ -6,15 +6,16 @@ class Social extends Component {
     <div className="social">
 
       <div className="sub-header">
-        <h2>Hey, check out some cool links.</h2>
-        <h3>Ooooo, spinny things!</h3>
+        <h1>Some of the best things in life are spinny things, right?</h1>
+        <h2>See some things I find exhilarating by clicking on them.</h2>
+        <h2>You know you came here for spinnies. You are welcome.</h2>
       </div>
-      <div className="tabWarning">WARNING! All icons will open irrevelant tabs to youtube videos! Videos are acceptable for ages 13+ (SFW).</div>
+      <div className="warning">WARNING!</div> <div>All icons will open irrevelant tabs to youtube videos! Videos are acceptable for ages 13+ (SFW).</div>
       <div>
       <a target="_blank"  href='https://www.youtube.com/watch?v=5dbG4wqN0rQ'>
         <img alt="dog memes"  src="  http://downloadicons.net/sites/default/files/dog-icon-86451.png" />
       </a>
-      <a target="_blank"  href='https://www.youtube.com/watch?v=WIKqgE4BwAY'>
+      <a className="fast" target="_blank"  href='https://www.youtube.com/watch?v=WIKqgE4BwAY'>
         <img alt="chocolate"  src="  https://d30y9cdsu7xlg0.cloudfront.net/png/202529-200.png" />
       </a>
         <a target="_blank"  href='https://www.youtube.com/watch?v=7wmqPW1N5Dk'>
@@ -36,7 +37,7 @@ class Social extends Component {
           <img alt="chicken icon"  src=" https://d30y9cdsu7xlg0.cloudfront.net/png/33759-200.png" />
         </a>
       </div>
-      <div>
+      <div className="words">
         <p>By the way, if you like all my weird links, you should totally hire me. We'd be great friends. :)</p>
       </div>
     </div>
