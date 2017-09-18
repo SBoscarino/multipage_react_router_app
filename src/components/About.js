@@ -34,14 +34,14 @@ class About extends Component {
         <div><img alt="cat" src={cat11} /></div>
         <div><img alt="cat" src={cat4} /></div>
         <div><img alt="cat" src={cat5} /></div>
-        <div><img alt="cat"  src="http://andersabrahamsson.info/images/good-sassy-quotes-for-instagram-6-the-25-best-sassy-quotes-on-pinterest-funny-sassy-quotes-caption-for-smile-and-caption-on-smile-720-x-625.jpg"/></div>
+        <div><img alt="cat"  src="https://i.pinimg.com/736x/90/d9/d3/90d9d3e6a116a1ff6892f5467ab073ab--sassy-sayings-sassy-funny-quotes.jpg"/></div>
         <div><img alt="cat"  src='https://i.pinimg.com/736x/4e/7d/e3/4e7de36838e48671496a6d98fd7be03c--real-talk-sarcasm.jpg'/></div>
         <div><img alt="cat" src={cat7} /></div>
         <div><img alt="cat"  src={cat8} /></div>
         <div><img alt="cat"  src={cat13} /></div>
         <div><img alt="cat"  src="http://quotesnhumor.com/wp-content/uploads/2017/04/30-Best-Sassy-Quotes-for-Your-Instagram-15-Sassy-Sassy-Quotes.jpg"/></div>
         <div><img alt="cat" src={cat10} /></div>
-        <div><img alt="cat"  src="https://scontent.cdninstagram.com/hphotos-xap1/t51.2885-15/e15/1599567_727615944003929_409360058_n.jpg"/></div>
+        <div><img alt="cat"  src="https://i.pinimg.com/736x/98/2b/8a/982b8a14050d085334aa4721cf9e284c--confidence-quotes-sassy-girl.jpg"/></div>
         <div><img alt="cat" src={cat12} /></div>
         <div><img alt="cat" src={cat14} /></div>
         <div><img alt="cat" src={cat3} /></div>
